@@ -1,0 +1,5 @@
+.recommendedVideos {
+    /* sidebar takes up 0.2 */
+    flex: 0.8;
+    border: 1px solid red;
+}
