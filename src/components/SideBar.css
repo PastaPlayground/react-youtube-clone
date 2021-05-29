@@ -1,6 +1,6 @@
 .sideBar {
     /* flex width of 20% */
-    flex: 0.15;
+    flex: 0.12;
     /* border: 1px solid black; */
 }
 
@@ -8,5 +8,5 @@
     height: 1px;
     border: 0;
     background-color: lightgrey;
-    margin: 10px 0;
+    margin: 8px 0;
 }
