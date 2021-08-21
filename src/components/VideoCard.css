@@ -8,10 +8,9 @@
   width: 250px;
 }
 
-.video_Info {
+.videoCard_info {
   display: flex;
-  flex-wrap: wrap;
-  /* flex-direction: column; */
+  margin-top: 5px
 }
 
 .videoCard_text {
@@ -29,6 +28,6 @@
 }
 
 .video_avatar {
-    width: 30px !important;
-    height: 30px !important;
+    width: 40px !important;
+    height: 40px !important;
 }

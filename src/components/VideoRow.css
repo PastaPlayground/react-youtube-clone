@@ -1,0 +1,40 @@
+.videoRow {
+    width: 1000px;
+    display: flex;
+    margin: 20px 15%;
+}
+
+.videoRow_thumbnail {
+    height: 220px;
+    width: 400px;
+}
+
+.videoRow_info {
+    margin-left: 20px;
+    width: 100%;
+    text-align: left;
+}
+
+.videoRow_text {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.videoRow_text p {
+    display: flex;
+    align-items: center;
+    font-size: small !important;
+    margin-left: 10px;
+}
+
+.verifiedIcon {
+    height: 20px;
+    margin-left: 5px;
+}
+
+.video_description {
+    font-size: small !important;
+    margin-top: 10px;
+}
+

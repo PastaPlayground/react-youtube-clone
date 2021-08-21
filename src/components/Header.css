@@ -1,12 +1,14 @@
 .header {
     display: flex;    
+    height: 5vh;
     align-items: center;
     justify-content: space-between;
     padding: 15px;
     position: sticky;
     top: 0;
     z-index: 100;
-    background-color: white;
+    /* background-color: #3b3b3b; */
+    /* border-bottom: 1px solid grey; */
 }
 
 .header_logo {
@@ -22,18 +24,20 @@
     border: 1px solid lightgrey;
     border-radius: 5px;
     padding: 5px 15px;
+    /* background-color: #3b3b3b; */
 }
 
 .header_input > input {
     flex: 1;
     border: none;
     font-size: 16px;
+    background-color: transparent;
 }
 
 .input_button {
     width: 50px !important;
     height: 100%;
-    background-color: #fafafa;
+    background-color: transparent;
     border-left: 1px solid lightgrey;
     color: grey;
 }

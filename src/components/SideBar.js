@@ -8,6 +8,7 @@ import HistoryIcon from '@material-ui/icons/History';
 import OndemandVideoIcon from '@material-ui/icons/OndemandVideo';
 import WatchLaterIcon from '@material-ui/icons/WatchLater';
 import ThumbUpIcon from '@material-ui/icons/ThumbUp';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 const SideBar = () => {
     return (
@@ -22,6 +23,7 @@ const SideBar = () => {
             <SidebarRow Icon={OndemandVideoIcon} title="Your videos" />
             <SidebarRow Icon={WatchLaterIcon} title="Watch later" />
             <SidebarRow Icon={ThumbUpIcon} title="Liked videos" />
+            <SidebarRow Icon={ExpandMoreIcon} title="Show More" />
         </div>
     )
 }

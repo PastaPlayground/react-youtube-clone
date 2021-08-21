@@ -1,0 +1,42 @@
+.channelRow {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px auto;
+    /* color: #fefefe; */
+}
+
+.channelRow_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.channelRow_text > h4 {
+    display: flex;
+    align-items: center;
+}
+
+.verifiedIcon {
+    height: 20px;
+    margin-left: 5px;
+}
+
+.channelRow_text > p {
+    color: #929292;
+    font-size: small !important;
+}
+
+.channelRow_logo {
+    width: 120px !important;
+    height: 120px !important;
+    margin: 10px 60px;
+}
+
+.channelRow hr {
+    display: inline-block;
+    height: 1;
+    width: 100%;
+    background-color: black;
+}

@@ -1,20 +1,23 @@
 import Avatar from "@material-ui/core/Avatar";
+
+// takes in 6 different props
+// use destructure of props instead of using const
 const VideoCard = ({
-  image,
+  videoThumbnail,
   title,
-  channel,
+  channelName,
   views,
   timestamp,
   channelImage,
 }) => {
   return (
     <div className="VideoCard">
-      <img className="videoCard_thumbnail" src={image} alt=""></img>
-      <div className="video_Info">
-        <Avatar className="video_avatar" alt={channel} src={channelImage} />
-        <div class="videoCard_text">
+      <img className="videoCard_thumbnail" src={videoThumbnail} alt={videoThumbnail}></img>
+      <div className="videoCard_info">
+        <Avatar className="video_avatar" alt={channelName} src={channelImage} />
+        <div className="videoCard_text">
           <h4>{title}</h4>
-          <p>{channel}</p>
+          <p>{channelName}</p>
           <p>{views} • {timestamp}</p>
         </div>
       </div>

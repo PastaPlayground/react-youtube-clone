@@ -2,8 +2,9 @@
     /* sidebar takes up 0.2 */
     flex: 0.8;
     padding: 40px 20px;
-    display: flex;
+    /* display: flex; */
     padding-bottom: 0;
+    margin-left: 15%;
 }
 
 .recommendedVideos > h2 {
