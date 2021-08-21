@@ -1,5 +1,6 @@
 # REACTJS Youtube Clone App
 A simple youtube clone made with reactjs
+Thanks to https://www.youtube.com/watch?v=NT299zIk2JY 
 
 # Getting Started with Create React App
 
