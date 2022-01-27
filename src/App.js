@@ -3,6 +3,7 @@ import Header from "./components/Header/Header.js";
 import SideBar from "./components/SideBar/SideBar.js";
 import RecommendedVideos from "./components/RecommendedVideos/RecommendedVideos.js";
 import SearchPage from "./components/SearchPage/SearchPage.js";
+import Category from "./components/Category/Category";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
             <div className="app_page">
               <SideBar />
               <RecommendedVideos />
+              <Category />
             </div>
           </Route>
         </Switch>

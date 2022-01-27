@@ -1,0 +1,16 @@
+.categoryLinks {
+  position: absolute;
+  left: 17%;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+}
+
+.categoryLinks div {
+  /* background-color: grey; */
+  border: 2px solid rgb(165, 165, 165);
+  border-radius: 15px;
+  padding: 10px;
+  color: black;
+}
