@@ -1,33 +1,39 @@
 .sidebarRow {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .sidebarRow_icon {
-    padding: 10px 20px;
-    color: #606060;
+  padding: 10px 20px;
+  color: #606060;
 }
 
 .sidebarRow_title {
-    flex: 1;
-    margin-left: 10px;
-    font-size: 14px;
-    font-weight: 400;
+  flex: 1;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .sidebarRow:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-    cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
 .sidebarRow.selected {
-    background-color: lightgrey;
+  background-color: lightgrey;
 }
 
 .sidebarRow.selected > .sidebarRow_icon {
-    color: red;
+  color: red;
 }
 
 .sidebarRow.selected > .sidebarRow_title {
-    font-weight: 700;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 1100px) {
+  .sidebarRow_title {
+    display: none;
+  }
 }

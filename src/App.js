@@ -25,7 +25,7 @@ function App() {
             <div className="app_page">
               <SideBar />
               <RecommendedVideos />
-              <Category />
+              {/* <Category /> */}
             </div>
           </Route>
         </Switch>
