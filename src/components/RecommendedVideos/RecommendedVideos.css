@@ -1,11 +1,11 @@
 .recommendedVideos {
   /* sidebar takes up 0.2 */
-  /* flex: 0.8; */
-  padding: 40px 20px;
+  flex: 1;
+  margin: 50px;
+  padding-left: 40px;
   display: flex;
-  /* flex-direction: column; */
   flex-wrap: wrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding-bottom: 0;
   margin-left: 15%;
 }
@@ -17,4 +17,5 @@
 .recommendedVideos_video {
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
 }

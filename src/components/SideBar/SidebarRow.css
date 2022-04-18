@@ -1,6 +1,7 @@
 .sidebarRow {
   display: flex;
   align-items: center;
+  height: 50px; 
 }
 
 .sidebarRow_icon {
@@ -32,7 +33,7 @@
   font-weight: 700;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1250px) {
   .sidebarRow_title {
     display: none;
   }

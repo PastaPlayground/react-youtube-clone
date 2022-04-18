@@ -11,7 +11,7 @@ function SearchPage() {
       <div className="searchPage_fliter">
         <TuneOutlinedIcon />
         <h2>FLITERS</h2>
-        <hr />
+        <hr /> 
       </div>
 
       {/* Channel */}

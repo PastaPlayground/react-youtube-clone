@@ -1,16 +1,26 @@
 .sideBar {
-    /* flex width of 20% */
+    /* flex width of 15% */
     width: 15%;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
     /* border-right: 1px solid grey; */
     position: fixed;
-    /* background-color: #3b3b3b; */
-    /* color: white; */
 }
 
 .sideBar > hr {
     height: 1px;
     border: 0;
-    /* background-color: lightgrey; */
+    background-color: lightgrey;
     margin: 8px 0;
 }
+
+.subscriptionHeader {
+    padding: 10px 20px;
+}
+
+@media only screen and (max-width: 1250px) {
+    .subscriptions {
+      display: none;
+    }
+  }
