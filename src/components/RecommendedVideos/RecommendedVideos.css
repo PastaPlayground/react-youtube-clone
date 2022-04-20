@@ -1,21 +1,15 @@
 .recommendedVideos {
   /* sidebar takes up 0.2 */
   flex: 1;
-  margin: 50px;
-  padding-left: 40px;
+  /* height: 100%; */
+  margin-left: 50px;
+  margin-top: 40px;
   display: flex;
+  justify-content: flex-start;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
   padding-bottom: 0;
-  margin-left: 15%;
 }
 
 .recommendedVideos > h2 {
   margin: 0 5px 20px 0;
-}
-
-.recommendedVideos_video {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
 }

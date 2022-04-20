@@ -1,11 +1,11 @@
 .videoRow {
-    width: 100%;
+    width: 80%;
     display: flex;
-    margin: 20px 15%;
+    margin-left: 15%;
+    margin-top: 20px;
 }
 
 .videoRow_thumbnail {
-    /* height: 150px; */
     width: 30%;
 }
 

@@ -8,6 +8,7 @@ import VideoRow from "../VideoRow/VideoRow.js";
 function SearchPage() {
   return (
     <div className="searchPage">
+      
       <div className="searchPage_fliter">
         <TuneOutlinedIcon />
         <h2>FLITERS</h2>

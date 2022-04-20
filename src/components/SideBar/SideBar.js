@@ -16,6 +16,7 @@ const SideBar = () => {
       <SidebarRow Icon={HomeIcon} title="Home" selected />
       <SidebarRow Icon={ExploreIcon} title="Explore" />
       <SidebarRow Icon={SubscriptionsIcon} title="Subscriptions" />
+      <SidebarRow Icon={SubscriptionsIcon} title="Shorts" />
       <hr />
 
       <SidebarRow Icon={VideoLibraryIcon} title="Library" />
@@ -26,11 +27,30 @@ const SideBar = () => {
       <hr />
 
       <div className="subscriptions">
-        <p className="subscriptionHeader">SUBSCRIPTIONS</p>
+        <p className="contentHeader">SUBSCRIPTIONS</p>
         <SidebarRow Icon={ThumbUpIcon} title="Clever Programmer" />
         <SidebarRow Icon={ThumbUpIcon} title="Clever Programmer" />
         <SidebarRow Icon={ThumbUpIcon} title="Clever Programmer" />
         <SidebarRow Icon={ExpandMoreIcon} title="Show More" />
+      </div>
+
+      <hr />
+      <div className="more">
+        <p className="contentHeader">MORE FROM YOUTUBE</p>
+        <SidebarRow Icon={ThumbUpIcon} title="Youtube Premium" />
+        <SidebarRow Icon={ThumbUpIcon} title="Movies" />
+        <SidebarRow Icon={ThumbUpIcon} title="Gaming" />
+        <SidebarRow Icon={ThumbUpIcon} title="Live" />
+        <SidebarRow Icon={ThumbUpIcon} title="Fashion &amp; Beauty" />
+        <SidebarRow Icon={ThumbUpIcon} title="Sports" />
+      </div>
+
+      <hr />
+      <div className="help">
+        <SidebarRow Icon={ThumbUpIcon} title="Settings" />
+        <SidebarRow Icon={ThumbUpIcon} title="Report history" />
+        <SidebarRow Icon={ThumbUpIcon} title="Help" />
+        <SidebarRow Icon={ThumbUpIcon} title="Send feedback" />
       </div>
     </div>
   );
