@@ -1,52 +1,52 @@
 .header {
-    display: flex;    
-    height: 5vh;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    /* background-color: #3b3b3b; */
-    /* border-bottom: 1px solid grey; */
+  display: flex;
+  height: 5vh;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  /* background-color: #3b3b3b; */
+  /* border-bottom: 1px solid grey; */
 }
 
 .header_logo {
-    height: 30px;
-    object-fit: contain;
-    margin-left: 30px;
+  height: 30px;
+  object-fit: contain;
+  margin-left: 30px;
 }
 
 .header_input {
-    display: flex;
-    align-items: center;
-    width: 40%;
-    border: 1px solid lightgrey;
-    border-radius: 5px;
-    padding: 5px 15px;
-    /* background-color: #3b3b3b; */
+  display: flex;
+  align-items: center;
+  width: 40%;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 5px 15px;
+  /* background-color: #3b3b3b; */
 }
 
 .header_input > input {
-    flex: 1;
-    border: none;
-    font-size: 16px;
-    background-color: transparent;
+  flex: 1;
+  border: none;
+  font-size: 16px;
+  background-color: transparent;
 }
 
 .input_button {
-    width: 50px !important;
-    height: 100%;
-    background-color: transparent;
-    border-left: 1px solid lightgrey;
-    color: grey;
+  width: 50px !important;
+  height: 100%;
+  background-color: transparent;
+  border-left: 1px solid lightgrey;
+  color: grey;
 }
 
 .header_icons {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header_icon {
-    margin-right: 30px;
+  margin-right: 30px;
 }
