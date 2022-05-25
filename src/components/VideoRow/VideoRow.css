@@ -1,15 +1,18 @@
 .videoRow {
-    width: 1000px;
+    width: 80%;
     display: flex;
-    margin: 20px 15%;
+    margin-left: 15%;
+    margin-top: 20px;
 }
 
 .videoRow_thumbnail {
-    height: 220px;
-    width: 400px;
+    width: 30%;
 }
 
 .videoRow_info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     margin-left: 20px;
     width: 100%;
     text-align: left;

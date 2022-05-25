@@ -1,0 +1,29 @@
+.sideBar {
+    /* flex width of 15% */
+    width: 15%;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.sideBar > hr {
+    height: 1px;
+    width: 90%;
+    border: 0;
+    border: 1px solid lightgray;    
+    margin: 10px 0;
+}
+
+.contentHeader {
+    padding: 10px 20px;
+    color: rgb(73, 73, 73);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 1250px) {
+    .subscriptions {
+      display: none;
+    }
+  }

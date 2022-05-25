@@ -10,9 +10,7 @@ import Avatar from "@material-ui/core/Avatar";
 import { Link } from "react-router-dom";
 
 const Header = () => {
-
-  const [inputSearch, setInputSearch] =  useState(""); 
-
+  const [inputSearch, setInputSearch] = useState("");
 
   return (
     <div className="header">
@@ -21,24 +19,38 @@ const Header = () => {
         <MenuIcon />
 
         <Link to="/">
-        <img
-          className="header_logo"
-          src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg"
-          alt="youtube-logo"
-        />
+          <img
+            className="header_logo"
+            src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg"
+            alt="youtube-logo"
+          />
         </Link>
-        
       </div>
 
       {/* search bar */}
       <div className="header_input">
-        <input onChange={e => setInputSearch(e.target.value)}
-        value={inputSearch} type="text" 
-        placeholder="Search"/>
+        <input
+          onChange={(e) => setInputSearch(e.target.value)}
+          value={inputSearch}
+          type="text"
+          placeholder="Search"
+        />
 
         {/* Dynamic searching based on user input */}
         <Link to={`/search/${inputSearch}`}>
-          <SearchIcon className="input_button"/>
+          <SearchIcon className="input_button" />
+        </Link>
+      </div>
+
+      <div className="miniSearch header_input">
+        <input
+          onChange={(e) => setInputSearch(e.target.value)}
+          value={inputSearch}
+          type="text"
+          placeholder="Search"
+        />
+        <Link to={`/search/${inputSearch}`}>
+          <SearchIcon className="input_button" />
         </Link>
       </div>
 
@@ -52,6 +64,8 @@ const Header = () => {
           src="https://avatars.githubusercontent.com/u/58853560?v=4"
         />
       </div>
+
+      
     </div>
   );
 };

@@ -1,0 +1,20 @@
+.categoryLinks {
+  position: absolute;
+  left: 18%;
+  display: flex;
+  gap: 15px;  
+  align-items: center;
+}
+
+.catergory {
+  background-color: rgb(211, 211, 211);
+  border-radius: 25px;
+  padding: 5px 15px;
+  color: black;
+}
+
+@media only screen and (max-width: 900px) {
+  .categoryLinks {
+    display: none;
+  }
+}
